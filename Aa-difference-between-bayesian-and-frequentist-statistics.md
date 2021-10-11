@@ -1,11 +1,9 @@
-The Bayesian paradigm in statistics contrasts with the
-frequentist paradigm, with a major area of distinction being
-in hypothesis testing [6]. It is based on two simple ideas: (1)
-that probability is a measure of belief in the occurrence of
-events, rather than the limit in the frequency of occurrence
-when the number of samples goes towards infinity as assumed
-in the frequentist paradigm, and (2) that prior beliefs influence
-posterior beliefs.
+The Bayesian paradigm in statistics contrasts with the frequentist paradigm, with a major area of distinction being
+in hypothesis testing. 
+
+It is based on two simple ideas: 
+ * that probability is a measure of belief in the occurrence of events, rather than the limit in the frequency of occurrence when the number of samples goes towards infinity as assumed in the frequentist paradigm,
+ * that prior beliefs influence posterior beliefs.
 
 label: bayesian
 
