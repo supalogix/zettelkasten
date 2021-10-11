@@ -7,5 +7,4 @@ It is based on two simple ideas:
 
 label: bayesian
 
-source: Hands-on Bayesian Neural Networks – a Tutorial for Deep Learning Users
-https://arxiv.org/pdf/2007.06823.pdf
+source: Hands-on Bayesian Neural Networks – a Tutorial for Deep Learning Users (https://arxiv.org/pdf/2007.06823.pdf)
