@@ -1,0 +1,15 @@
+https://www.quora.com/What-qualifies-a-philosophical-question-as-being-solved/answer/Frederick-Dolan?ch=99&oid=308588399&share=edc5b98b&srid=hkfH&target_type=answer
+
+This is, of course, an eminently philosophical question. It should immediately be said that what counts as a plausible solution is heavily dependent on the nature of the problem.
+
+So there’s no one answer. But there’s one kind of philosophical solution that is especially elegant. It has two components:
+
+The problem dissolves. It just goes away and ceases to be. What had seemed to be a problem no longer is one. The solution is the absence of the problem.
+This is how Wittgenstein conceived of philosophical solutions: the question you are struggling to answer turns out to be nonsense, and the discovery that it’s nonsense relieves you of the responsibility of answering it. Alternatively, the problem depends on a particular “picture” you have of how things are. If you can abandon that picture, or improve it, you can dispense with the problem.
+
+The problem dissolves for the right reasons. You can’t just declare something to be nonsense, and you can’t treat it as nonsense just because it’s hard to understand. For the problem to really disappear, you’ve got to understand pretty thoroughly why it ought to disappear.
+This kind of solution applies to the kind of problem Ludwig Wittgenstein called “intellectual cramp,” which Saul Kripke characterized as a situation “in which all the facts seem to be before us, there does not seem to be any new information to be gained, and yet we don’t quite know what is going wrong with our picture of the problem.”*
+
+https://eastsideinstitute.org/ludwig-wittgenstein/
+
+Language is the carrier of the disease, for Wittgenstein, because of the overdetermining representationalist connection between language and thought we in our culture make (the view that language expresses thought which Vygotsky rejected). We presume that our thoughts, words and deeds are lawfully connected, and speak of and seek causes, correspondences, parallels and generalizations between and among things we think, say and do. Wittgenstein’s method is to show us again and again the extent to which our thinking is strongly shaped by assumptions and presuppositions about language that derive from how we have identified it as fundamentally mentalistic. His method of “therapeutic cure” is to exaggerate the normal (and normally unnoticed) process of assuming that language is rule-governed, consistent from one situation to another, denotative, representational and expressive, and thereby to show the absurdity of such assumptions. This clears up confusions, relieves what he calls our “mental cramps” and, hopefully, stops individuals from asking the kinds of questions or thinking the kinds of thoughts that get them into these confusions in the first place. His goal is to help us get on with things, to “move about around things and events in the world instead of trying to delineate their essential features” (van der Merwe and Voestermans, 1995, p. 38).
