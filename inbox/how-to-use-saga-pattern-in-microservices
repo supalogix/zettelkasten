@@ -1,0 +1,5 @@
+https://blog.bitsrc.io/how-to-use-saga-pattern-in-microservices-9eaadde79748
+
+In Choreography-Based Saga, all the services that are part of the distributed transaction publish a new event after completing their local transaction.
+
+In Orchestration-Based Saga, a single orchestrator (arranger) manages all the transactions and directs services to execute local transactions.
