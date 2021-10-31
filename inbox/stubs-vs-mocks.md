@@ -54,3 +54,56 @@ Tests written with mocks usually follow an initialize -> set expectations -> exe
 Similarity between Mocks and Stubs
 
 The purpose of both is to eliminate testing all the dependencies of a class or function so your tests are more focused and simpler in what they are trying to prove.
+
+
+
+
+
+https://testing-library.com/docs/react-testing-library/example-intro
+
+
+// __tests__/fetch.test.js
+import React from 'react'
+import {rest} from 'msw'
+import {setupServer} from 'msw/node'
+import {render, fireEvent, waitFor, screen} from '@testing-library/react'
+import '@testing-library/jest-dom'
+import Fetch from '../fetch'
+
+const server = setupServer(
+  rest.get('/greeting', (req, res, ctx) => {
+    return res(ctx.json({greeting: 'hello there'}))
+  }),
+)
+
+beforeAll(() => server.listen())
+afterEach(() => server.resetHandlers())
+afterAll(() => server.close())
+
+test('loads and displays greeting', async () => {
+  render(<Fetch url="/greeting" />)
+
+  fireEvent.click(screen.getByText('Load Greeting'))
+
+  await waitFor(() => screen.getByRole('heading'))
+
+  expect(screen.getByRole('heading')).toHaveTextContent('hello there')
+  expect(screen.getByRole('button')).toBeDisabled()
+})
+
+test('handles server error', async () => {
+  server.use(
+    rest.get('/greeting', (req, res, ctx) => {
+      return res(ctx.status(500))
+    }),
+  )
+
+  render(<Fetch url="/greeting" />)
+
+  fireEvent.click(screen.getByText('Load Greeting'))
+
+  await waitFor(() => screen.getByRole('alert'))
+
+  expect(screen.getByRole('alert')).toHaveTextContent('Oops, failed to fetch!')
+  expect(screen.getByRole('button')).not.toBeDisabled()
+})
