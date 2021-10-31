@@ -107,3 +107,22 @@ test('handles server error', async () => {
   expect(screen.getByRole('alert')).toHaveTextContent('Oops, failed to fetch!')
   expect(screen.getByRole('button')).not.toBeDisabled()
 })
+
+
+
+https://www.telerik.com/products/mocking/unit-testing.aspx#:~:text=Mocking%20frameworks%20are%20used%20to,substitutes%20for%20unit%20testing%20frameworks.
+
+
+What is mocking?
+Mocking is a process used in unit testing when the unit being tested has external dependencies. The purpose of mocking is to isolate and focus on the code being tested and not on the behavior or state of external dependencies. In mocking, the dependencies are replaced by closely controlled replacements objects that simulate the behavior of the real ones. There are three main possible types of replacement objects - fakes, stubs and mocks.
+
+Fakes: A Fake is an object that will replace the actual code by implementing the same interface but without interacting with other objects. Usually the Fake is hard-coded to return fixed results. To test for different use cases, a lot of Fakes must be introduced. The problem introduced by using Fakes is that when an interface has been modified, all fakes implementing this interface should be modified as well.
+
+Stubs: A Stub is an object that will return a specific result based on a specific set of inputs and usually won’t respond to anything outside of what is programed for the test. With JustMock you can create a Stub in a test with a minimal amount of code, making it clear how the dependency will respond and how the tested system should behave.
+
+Mocks: A Mock is a much more sophisticated version of a Stub. It will still return values like a Stub, but it can also be programmed with expectations in terms of how many times each method should be called, in which order and with what data. With JustMock you can create a Mock with just one line of code, which makes the test more understandable.
+
+
+
+What is a mocking framework?
+Mocking frameworks are used to generate replacement objects like Stubs and Mocks. Mocking frameworks complement unit testing frameworks by isolating dependencies but are not substitutes for unit testing frameworks. By isolating the dependencies, they help the unit testing process and aid developers in writing more focused and concise unit tests. The tests also perform faster by truly isolating the system under test.
